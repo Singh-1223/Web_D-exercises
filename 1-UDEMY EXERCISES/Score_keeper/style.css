@@ -1,0 +1,28 @@
+body{
+    background-color:#9ae3ff;
+}
+
+div{
+    background-color: aquamarine;
+}
+.winner{
+    color:green;
+}
+
+.looser{
+    color:red;
+}
+
+#p1button{
+    border: 2px dotted antiquewhite;
+    color:magenta;
+}
+
+#p2button{
+    border: 2px dotted antiquewhite;
+    color:magenta;
+}
+
+#head{
+    color:rgb(233, 14, 178)
+}

@@ -1,0 +1,106 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: aliceblue;
+  margin: 0px;
+  padding: 0px;
+  background: url("img/gym2.webp");
+}
+
+.left {
+  display: inline-block;
+  position: absolute;
+  left: 60px;
+  top: 20px;
+}
+
+.left img{
+    width:135px;
+}
+
+.left div{
+    text-align: center;
+    line-height: 19px;
+    font-size: 25px;
+}
+
+.mid {
+    /* border: 2px solid red; */
+  display: block;
+  width: 60%;
+  margin:30px auto ;
+}
+
+.right {
+  position: absolute;
+  right: 34px;
+  top: 43px;
+  display: inline-block;
+}
+
+.navbar {
+  display: inline-block;
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 25px;
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 34px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+  text-decoration: underline;
+  color: red;
+}
+
+.btn{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px 9px;
+    background-color: black;
+    color:white;
+    padding:4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background-color: rgb(30, 109, 206);
+}
+
+.container{
+    border:2px solid white;
+    margin:104px 89px;
+
+    padding:75px;
+    width:33%;
+    border-radius: 28px;
+}
+
+.form-group input{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    display: block;
+    width:508px;
+    padding:1px;
+    border:2px solid black;
+    margin:11px auto;
+    font-size:25px;
+    border-radius:8px;
+}
+
+.container h1{
+    text-align:center;
+}
+
+.container button{
+    display: block;
+    width:74%;
+    margin: 20px auto;
+}
